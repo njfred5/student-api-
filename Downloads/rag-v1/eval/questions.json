@@ -1,0 +1,18 @@
+[
+  {
+    "id": "q1",
+    "question": "A question whose answer is in one passage",
+    "expectedAnswer": "the answer in your own words",
+    "doc": "the-file-name.txt",
+    "evidence": "a short exact phrase copied from that passage",
+    "answerable": true
+  },
+  {
+    "id": "q2",
+    "question": "A question the documents cannot answer",
+    "expectedAnswer": "not in the corpus",
+    "doc": null,
+    "evidence": null,
+    "answerable": false
+  }
+]
